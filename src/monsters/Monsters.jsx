@@ -19,7 +19,7 @@ function Monsters() {
 
   return (
     <div>
-        <Typography align="center" variant="h1" color="#9c27b0">
+        <Typography align="center" variant="h1" color="secondary">
         Monsters
       </Typography>
       <SearchBox hendleChange={(e) => setSearchField(e.target.value)} /> 
