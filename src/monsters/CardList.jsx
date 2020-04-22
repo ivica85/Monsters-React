@@ -9,7 +9,7 @@ const CardList = (props) => {
       <Grid item xs={12}>
         <Grid container justify="center" spacing={2} >
           {props.monsters.map((monster) => (
-            <Card monster={monster.id} key={uuid()}>
+            <Card monster={monster.id} name={monster.name} key={uuid()}>
               <Divider /> {monster.name} <Divider />
             </Card>
           ))}
